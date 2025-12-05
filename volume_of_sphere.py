@@ -12,7 +12,9 @@ import math
 def calculate_volume_of_sphere(radius):
     return (4/3) * math.pi * (radius ** 3)
 
-# Ask user for input and print result
-r = float(input("Plz enter the radius of the sphere "))
-volume = calculate_volume_of_sphere(r)
-print("The volume of the sphere is ", round(volume, 2))
+# Compute and print volumes for radii 30 and 40
+volume_30 = calculate_volume_of_sphere(30)
+volume_40 = calculate_volume_of_sphere(40)
+
+print("Volume of sphere with radius 30:", volume_30)
+print("Volume of sphere with radius 40:", volume_40)
